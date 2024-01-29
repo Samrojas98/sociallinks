@@ -1,0 +1,103 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+@font-face {
+    font-family: "Inter-VariableFont_slnt";
+    src: url(../social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px auto;
+    background-color: hsl(0, 0%, 8%);
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+#caja-principal{
+    font-family: "Inter-VariableFont_slnt";
+    width: 24.063rem;
+    height: 38.125rem;
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 3%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.25rem;
+}
+
+img{
+    border-radius: 100%;
+    height: 5.625rem;
+    width: 5.625rem;
+}
+
+#imagen{
+    margin-top: 2.813rem;
+    margin-bottom: 1.875rem;
+}
+
+#jessica-name{
+    margin-bottom: 0.813rem;
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+#address{
+    margin-bottom: 2.188rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 0.719rem;
+}
+
+#description{
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1.875rem;
+}
+
+.link-button{
+    background-color: hsl(0, 0%, 20%);
+    width: 19.063rem;
+    height: 2.813rem;
+    margin-bottom: 0.938rem;
+    border-radius: 0.625rem;
+}
+
+#instagram{
+    margin-bottom: 0rem;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+a:hover{
+    transition: all 400ms;
+    color: hsl(0, 0%, 12%);
+} 
+
+.link-button:hover{
+    transition: all 400ms;
+    background-color: hsl(75, 94%, 57%);
+}
